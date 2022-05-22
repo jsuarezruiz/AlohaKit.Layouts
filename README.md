@@ -2,7 +2,7 @@
 
 .NET MAUI **Layouts** Library.
 
-<img src="images/mauipane-promo.png" Width="400" />
+<img src="images/mauipane-promo.png" Width="600" />
 
 _NOTE: This library is a port of [XamPane](https://github.com/jsuarezruiz/Xampane)._
 
