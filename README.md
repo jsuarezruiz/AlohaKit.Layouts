@@ -2,7 +2,9 @@
 
 .NET MAUI **Layouts** Library.
 
-<img src="images/mauipane.gif" Width="350" />
+<img src="images/mauipane-promo.png" Width="400" />
+
+_NOTE: This library is a port of [XamPane](https://github.com/jsuarezruiz/Xampane)._
 
 ### CircularLayout
 
@@ -95,5 +97,7 @@ The WrapLayout will position each of its child controls next to the other, horiz
 Please use [GitHub issues](https://github.com/jsuarezruiz/mauipane/issues) for questions or comments.
 
 ## Copyright and license
+
+The library icon is from [Kendis Lasman]( https://www.flaticon.com/authors/kendis-lasman).
 
 Code released under the [MIT license](https://opensource.org/licenses/MIT).
