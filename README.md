@@ -2,7 +2,7 @@
 
 .NET MAUI **Layouts** Library.
 
-![MauiAnimation](images/mauipane-promo.png)
+![MauiAnimation](https://raw.githubusercontent.com/jsuarezruiz/MauiPane/main/images/mauipane-promo.png)
 
 _NOTE: This library is a port of [XamPane](https://github.com/jsuarezruiz/Xampane)._
 
@@ -32,7 +32,7 @@ The CircularLayout is a simple Panel derivative that lays out its children in a 
     <Label Text="12" mauipane:CircularLayout.Angle="360" mauipane:CircularLayout.Radius="90" />
 </mauipane:CircularLayout>
 ```
-<img src="images/circularlayout.png" Width="250" />
+<img src="https://raw.githubusercontent.com/jsuarezruiz/MauiPane/main/images/circularlayout.png" Width="250" />
 
 ### DockLayout
 
@@ -49,7 +49,7 @@ The DockLayout allows you to **dock** the child controls to the top, bottom, lef
     <Button mauipane:DockLayout.Dock="Right" Text="Right" WidthRequest="80"/>
 </mauipane:DockLayout>
 ```
-<img src="images/docklayout.png" Width="250" />
+<img src="https://raw.githubusercontent.com/jsuarezruiz/MauiPane/main/images/docklayout.png" Width="250" />
 
 ### UniformGrid
 
@@ -68,7 +68,7 @@ The UniformGrid is just like the Grid, with the possibility of multiple rows and
     <BoxView Color="Pink" />
 </mauipane:UniformGrid>
 ```
-<img src="images/uniformgrid.png" Width="250" />
+<img src="https://raw.githubusercontent.com/jsuarezruiz/MauiPane/main/images/uniformgrid.png" Width="250" />
 
 ### WrapLayout
 
@@ -90,7 +90,7 @@ The WrapLayout will position each of its child controls next to the other, horiz
     <BoxView Color="Pink" />
 </mauipane:WrapLayout>
 ```
-<img src="images/wraplayout.png" Width="250" />
+<img src="https://raw.githubusercontent.com/jsuarezruiz/MauiPane/main/images/wraplayout.png" Width="250" />
 
 ## Feedback
 
