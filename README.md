@@ -32,7 +32,8 @@ The CircularLayout is a simple Panel derivative that lays out its children in a 
     <Label Text="12" mauipane:CircularLayout.Angle="360" mauipane:CircularLayout.Radius="90" />
 </mauipane:CircularLayout>
 ```
-<img src="https://raw.githubusercontent.com/jsuarezruiz/MauiPane/main/images/circularlayout.png" Width="250" />
+
+![CircularLayout](https://raw.githubusercontent.com/jsuarezruiz/MauiPane/main/images/circularlayout.png)
 
 ### DockLayout
 
@@ -49,7 +50,8 @@ The DockLayout allows you to **dock** the child controls to the top, bottom, lef
     <Button mauipane:DockLayout.Dock="Right" Text="Right" WidthRequest="80"/>
 </mauipane:DockLayout>
 ```
-<img src="https://raw.githubusercontent.com/jsuarezruiz/MauiPane/main/images/docklayout.png" Width="250" />
+
+![DockLayout](https://raw.githubusercontent.com/jsuarezruiz/MauiPane/main/images/docklayout.png)
 
 ### UniformGrid
 
@@ -68,7 +70,8 @@ The UniformGrid is just like the Grid, with the possibility of multiple rows and
     <BoxView Color="Pink" />
 </mauipane:UniformGrid>
 ```
-<img src="https://raw.githubusercontent.com/jsuarezruiz/MauiPane/main/images/uniformgrid.png" Width="250" />
+
+![UniformGrid](https://raw.githubusercontent.com/jsuarezruiz/MauiPane/main/images/uniformgrid.png)
 
 ### WrapLayout
 
@@ -90,7 +93,8 @@ The WrapLayout will position each of its child controls next to the other, horiz
     <BoxView Color="Pink" />
 </mauipane:WrapLayout>
 ```
-<img src="https://raw.githubusercontent.com/jsuarezruiz/MauiPane/main/images/wraplayout.png" Width="250" />
+
+![WrapLayout](https://raw.githubusercontent.com/jsuarezruiz/MauiPane/main/images/wraplayout.png)
 
 ## Feedback
 
