@@ -6,6 +6,14 @@
 
 _NOTE: This library is a port of [XamPane](https://github.com/jsuarezruiz/Xampane)._
 
+## Usage
+
+**Step 1**: Include the MauiPane package reference in your project. 
+
+**Step 2**: Use the **ConfigureMauiPane** extension method in your MauiProgram class.
+
+**Step 3**: Enjoy coding!.
+
 ### CircularLayout
 
 The CircularLayout is a simple Panel derivative that lays out its children in a **circular** arrangement. It has some useful properties to allow some customization like the Orientation (Clockwise or Counterclockwise).
