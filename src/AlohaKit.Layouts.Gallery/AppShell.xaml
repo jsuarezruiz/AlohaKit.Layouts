@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="AlohaKit.Layouts.Gallery.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:AlohaKit.Layouts.Gallery"    
+    xmlns:alohakit="clr-namespace:AlohaKit.Layouts;assembly=AlohaKit.Layouts"
+    Shell.FlyoutBehavior="Disabled"
+    Title="AlohaKit Layouts">
+    <Shell.Resources>
+        <ResourceDictionary>
+
+            <Style TargetType="BoxView">
+                <Setter Property="HeightRequest" Value="100" />
+                <Setter Property="WidthRequest" Value="100" />
+            </Style>
+
+        </ResourceDictionary>
+    </Shell.Resources>
+    <TabBar>
+        <!-- DOCKLAYOUT -->
+        <Tab
+            Title="Dock">
+            <ShellContent
+                Title="Default">
+                <ContentPage
+                    Title="Dock Layout">
+                    <alohakit:DockLayout>
+                        <Button alohakit:DockLayout.Dock="Top" Text="Top" HeightRequest="50"/>
+                        <Button alohakit:DockLayout.Dock="Bottom" Text="Bottom" HeightRequest="50"/>
+                        <Button alohakit:DockLayout.Dock="Left" Text="Left" WidthRequest="50" />
+                        <Button alohakit:DockLayout.Dock="Right" Text="Right" WidthRequest="50" />
+                        <Button Text="Center" />
+                    </alohakit:DockLayout>
+                </ContentPage>
+            </ShellContent>
+            <ShellContent
+                Title="LastChildFill">
+                <ContentPage
+                    Title="Dock Layout">
+                    <alohakit:DockLayout
+                        LastChildFill="False">
+                        <Button alohakit:DockLayout.Dock="Top" Text="Top" HeightRequest="50"/>
+                        <Button alohakit:DockLayout.Dock="Bottom" Text="Bottom" HeightRequest="50"/>
+                        <Button alohakit:DockLayout.Dock="Left" Text="Left" WidthRequest="60"/>
+                        <Button alohakit:DockLayout.Dock="Left" Text="Left" WidthRequest="60"/>
+                        <Button alohakit:DockLayout.Dock="Right" Text="Right" WidthRequest="80"/>
+                        <Button alohakit:DockLayout.Dock="Right" Text="Right" WidthRequest="80"/>
+                    </alohakit:DockLayout>
+                </ContentPage>
+            </ShellContent>
+        </Tab>
+        <!-- CIRCULARLAYOUT -->
+        <Tab
+            Title="Circular">
+            <ShellContent
+                Title="Clockwise">
+                <ContentPage
+                    Title="Circular Layout">
+                    <alohakit:CircularLayout
+                        Orientation="Clockwise">
+                        <BoxView Color="Black" CornerRadius="6" WidthRequest="6" HeightRequest="6" />
+                        <BoxView Color="Red" CornerRadius="12" WidthRequest="12" HeightRequest="12" alohakit:CircularLayout.Angle="0" alohakit:CircularLayout.Radius="120" />
+                        <BoxView Color="Green" CornerRadius="12" WidthRequest="12" HeightRequest="12" alohakit:CircularLayout.Angle="10" alohakit:CircularLayout.Radius="120" />
+                        <BoxView Color="Blue" CornerRadius="12" WidthRequest="12" HeightRequest="12" alohakit:CircularLayout.Angle="20" alohakit:CircularLayout.Radius="120" />
+                        <BoxView Color="Yellow" CornerRadius="12" WidthRequest="12" HeightRequest="12" alohakit:CircularLayout.Angle="30" alohakit:CircularLayout.Radius="120" />
+                        <Label Text="1" alohakit:CircularLayout.Angle="30" alohakit:CircularLayout.Radius="90" />
+                        <Label Text="2" alohakit:CircularLayout.Angle="60" alohakit:CircularLayout.Radius="90" />
+                        <Label Text="3" alohakit:CircularLayout.Angle="90" alohakit:CircularLayout.Radius="90" />
+                        <Label Text="4" alohakit:CircularLayout.Angle="120" alohakit:CircularLayout.Radius="90" />
+                        <Label Text="5" alohakit:CircularLayout.Angle="150" alohakit:CircularLayout.Radius="90" />
+                        <Label Text="6" alohakit:CircularLayout.Angle="180" alohakit:CircularLayout.Radius="90" />
+                        <Label Text="7" alohakit:CircularLayout.Angle="210" alohakit:CircularLayout.Radius="90" />
+                        <Label Text="8" alohakit:CircularLayout.Angle="240" alohakit:CircularLayout.Radius="90" />
+                        <Label Text="9" alohakit:CircularLayout.Angle="270" alohakit:CircularLayout.Radius="90" />
+                        <Label Text="10" alohakit:CircularLayout.Angle="300" alohakit:CircularLayout.Radius="90" />
+                        <Label Text="11" alohakit:CircularLayout.Angle="330" alohakit:CircularLayout.Radius="90" />
+                        <Label Text="12" alohakit:CircularLayout.Angle="360" alohakit:CircularLayout.Radius="90" />
+                    </alohakit:CircularLayout>
+                </ContentPage>
+            </ShellContent>
+            <ShellContent
+                Title="Counterclockwise">
+                <ContentPage
+                    Title="Circular Layout">
+                    <alohakit:CircularLayout
+                        Orientation="Counterclockwise">
+                        <BoxView Color="Black" CornerRadius="6" WidthRequest="6" HeightRequest="6" />
+                        <BoxView Color="Red" CornerRadius="12" WidthRequest="12" HeightRequest="12" alohakit:CircularLayout.Angle="0" alohakit:CircularLayout.Radius="120" />
+                        <BoxView Color="Green" CornerRadius="12" WidthRequest="12" HeightRequest="12" alohakit:CircularLayout.Angle="10" alohakit:CircularLayout.Radius="120" />
+                        <BoxView Color="Blue" CornerRadius="12" WidthRequest="12" HeightRequest="12" alohakit:CircularLayout.Angle="20" alohakit:CircularLayout.Radius="120" />
+                        <BoxView Color="Yellow" CornerRadius="12" WidthRequest="12" HeightRequest="12" alohakit:CircularLayout.Angle="30" alohakit:CircularLayout.Radius="120" />
+                        <Label Text="1" alohakit:CircularLayout.Angle="30" alohakit:CircularLayout.Radius="90" />
+                        <Label Text="2" alohakit:CircularLayout.Angle="60" alohakit:CircularLayout.Radius="90" />
+                        <Label Text="3" alohakit:CircularLayout.Angle="90" alohakit:CircularLayout.Radius="90" />
+                        <Label Text="4" alohakit:CircularLayout.Angle="120" alohakit:CircularLayout.Radius="90" />
+                        <Label Text="5" alohakit:CircularLayout.Angle="150" alohakit:CircularLayout.Radius="90" />
+                        <Label Text="6" alohakit:CircularLayout.Angle="180" alohakit:CircularLayout.Radius="90" />
+                        <Label Text="7" alohakit:CircularLayout.Angle="210" alohakit:CircularLayout.Radius="90" />
+                        <Label Text="8" alohakit:CircularLayout.Angle="240" alohakit:CircularLayout.Radius="90" />
+                        <Label Text="9" alohakit:CircularLayout.Angle="270" alohakit:CircularLayout.Radius="90" />
+                        <Label Text="10" alohakit:CircularLayout.Angle="300" alohakit:CircularLayout.Radius="90" />
+                        <Label Text="11" alohakit:CircularLayout.Angle="330" alohakit:CircularLayout.Radius="90" />
+                        <Label Text="12" alohakit:CircularLayout.Angle="360" alohakit:CircularLayout.Radius="90" />
+                    </alohakit:CircularLayout>
+                </ContentPage>
+            </ShellContent>
+        </Tab>
+        <!-- UNIFORMGRID -->
+        <Tab
+            Icon="uniform.png"
+            Title="UniformGrid">
+            <ShellContent>
+                <ContentPage
+                    Title="UniformGrid">
+                    <alohakit:UniformGrid>
+                        <BoxView Color="Red" />
+                        <BoxView Color="Yellow" />
+                        <BoxView Color="Orange" />
+                        <BoxView Color="Purple" />
+                        <BoxView Color="Blue" />
+                        <BoxView Color="Green" />
+                        <BoxView Color="LightGreen" />
+                        <BoxView Color="Gray" />
+                        <BoxView Color="Pink" />
+                    </alohakit:UniformGrid>
+                </ContentPage>
+            </ShellContent>
+        </Tab>
+        <!-- WRAPLAYOUT -->
+        <Tab
+            Icon="wrap.png"
+            Title="Wrap">
+            <ShellContent
+                Title="Vertical">
+                <ContentPage
+                    Title="Wrap Layout">
+                    <alohakit:WrapLayout 
+                        Orientation="Vertical"
+                        Spacing="6"
+                        HorizontalOptions="Center">
+                        <BoxView Color="Red" />
+                        <BoxView Color="Yellow" />
+                        <BoxView Color="Orange" />
+                        <BoxView Color="Purple" />
+                        <BoxView Color="Blue" />
+                        <BoxView Color="Green" />
+                        <BoxView Color="LightGreen" />
+                        <BoxView Color="Gray" />
+                        <BoxView Color="Pink" />
+                    </alohakit:WrapLayout>
+                </ContentPage>
+            </ShellContent>
+            <ShellContent
+                Title="Horizontal">
+                <ContentPage
+                    Title="Wrap Layout">
+                    <alohakit:WrapLayout 
+                        Orientation="Horizontal"
+                        Spacing="6"
+                        HorizontalOptions="Center">
+                        <BoxView Color="Red" />
+                        <BoxView Color="Yellow" />
+                        <BoxView Color="Orange" />
+                        <BoxView Color="Purple" />
+                        <BoxView Color="Blue" />
+                        <BoxView Color="Green" />
+                        <BoxView Color="LightGreen" />
+                        <BoxView Color="Gray" />
+                        <BoxView Color="Pink" />
+                    </alohakit:WrapLayout>
+                </ContentPage>
+            </ShellContent>
+        </Tab>
+    </TabBar>
+</Shell>
