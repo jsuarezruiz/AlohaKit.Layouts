@@ -1,8 +1,8 @@
-# AlohaKit.Layouts
+# AlohaKit Layouts
 
 .NET MAUI **Layouts** Library.
 
-![AlohaKit.Layouts](https://raw.githubusercontent.com/jsuarezruiz/AlohaKit.Layouts/main/images/AlohaKit.Layouts-promo.png)
+![AlohaKit.Layouts](https://github.com/jsuarezruiz/AlohaKit.Layouts/blob/main/images/alohakit-layouts-promo.png?raw=true)
 
 _NOTE: This library is a port of [XamPane](https://github.com/jsuarezruiz/Xampane)._
 
@@ -109,7 +109,5 @@ The WrapLayout will position each of its child controls next to the other, horiz
 Please use [GitHub issues](https://github.com/jsuarezruiz/AlohaKit.Layouts/issues) for questions or comments.
 
 ## Copyright and license
-
-The library icon is from [Kendis Lasman]( https://www.flaticon.com/authors/kendis-lasman).
 
 Code released under the [MIT license](https://opensource.org/licenses/MIT).
