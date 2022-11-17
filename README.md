@@ -2,7 +2,7 @@
 
 .NET MAUI **Layouts** Library.
 
-![AlohaKit.Layouts](https://github.com/jsuarezruiz/AlohaKit.Layouts/blob/main/images/alohakit-layouts-promo.png?raw=true)
+![AlohaKit.Layouts](https://raw.githubusercontent.com/jsuarezruiz/AlohaKit.Layouts/main/images/alohakit-layouts-promo.png)
 
 _NOTE: This library is a port of [XamPane](https://github.com/jsuarezruiz/Xampane)._
 
