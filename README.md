@@ -1,5 +1,11 @@
 # AlohaKit Layouts
 
+<div align="center">
+   <a href="https://www.nuget.org/packages/AlohaKit.Layouts"><img src="https://img.shields.io/nuget/v/AlohaKit.Layouts?color=blue&style=flat-square&logo=nuget"></a>
+   <a href="https://www.nuget.org/packages/AlohaKit.Layouts"><img src="https://img.shields.io/nuget/dt/AlohaKit.Layouts.svg?style=flat-square"></a>
+   <a href="./LICENSE"><img src="https://img.shields.io/github/license/jsuarezruiz/AlohaKit.Layouts?style=flat-square"></a>
+</div>
+
 .NET MAUI **Layouts** Library.
 
 ![AlohaKit.Layouts](https://raw.githubusercontent.com/jsuarezruiz/AlohaKit.Layouts/main/images/alohakit-layouts-promo.png)
